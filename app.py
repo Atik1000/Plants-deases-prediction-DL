@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 11 22:34:20 2020
-
-@author: Krish Naik
-"""
-
 from __future__ import division, print_function
 # coding=utf-8
 import sys
@@ -30,7 +23,7 @@ from tensorflow.keras.preprocessing import image
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
-#from gevent.pywsgi import WSGIServer
+
 
 # Define a flask app
 app = Flask(__name__)
